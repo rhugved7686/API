@@ -33,7 +33,6 @@ app.use("/RiderRides",RIDERRIDES);
 app.use("/UpcommingRides",UPCOMMINGRIDES);
 
 
-
 app.listen(PORT, (err) => {
     if (err) throw err;
     else console.log(`Server is running on http://localhost:${PORT}`);
